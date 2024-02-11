@@ -1,0 +1,97 @@
+.header {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 33px;
+    }
+
+    &__link {
+        font-family: 'Mulish';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #150A29;
+    }
+
+    &__con {
+        border: none;
+        font-family: 'Mulish';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #FFFFFF;
+        background: #FD695A;
+        padding: 11px 27px;
+        border-radius: 50px;
+    }
+
+    .modal__bg {
+        position: absolute;
+        width: 1435px;
+        height: 1600px;
+        background-color: #a1a1a17c;
+        z-index: 999;
+        left: 0;
+        position: fixed;
+        display: none;
+    }
+
+    .modal {
+        background-color: #aaeef3;
+        width: 400px;
+        padding: 20px;
+        border: 1px solid rgb(246, 246, 246);
+        text-align: center;
+        align-items: center;
+        z-index: 999;
+        top: 200px;
+        left: 450px;
+        right: 0;
+        position: fixed;
+
+        &__heading {
+            font-family: 'Mulish';
+            font-size: 20px;
+            text-align: center;
+        }
+
+        &__tel {
+            width: 300px;
+            padding: 15px;
+            border-radius: 50px;
+            border: none;
+            border: 1px solid #FD695A;
+            background-color: #e7d2d2;
+            margin-bottom: 20px;
+        }
+
+        &__btn {
+            display: block;
+            border: none;
+            background: none;
+            background-color: #FD695A;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            margin-left: 160px;
+        }
+
+        .exit {
+            background: none;
+            border: none;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+    }
+
+    .men {
+        display: block;
+    }
+}

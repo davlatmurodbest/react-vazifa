@@ -1,0 +1,150 @@
+.hero {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 109px;
+        position: relative;
+    }
+
+    &__heading {
+        font-family: 'Mulish' serif;
+        font-size: 70px;
+        font-weight: 800;
+        line-height: 94px;
+        width: 607px;
+        margin: 0;
+        padding: 0;
+        padding-top: 128px;
+        padding-bottom: 53px;
+    }
+
+    &__dizayn {
+        color: #FD695A;
+        border: 5px solid #41BA77;
+        padding: 8px;
+        position: relative;
+        width: 100px;
+    }
+
+    &__cir {
+        background: #41BA77;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        transform: translateX(164px);
+    }
+
+    .cir {
+        transform: translateX(360px);
+    }
+
+    &__text {
+        font-family: 'Mulish';
+        font-size: 21px;
+        font-weight: 200;
+        line-height: 35px;
+        width: 464px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 64px;
+    }
+
+    &__link {
+        background-color: #FD695A;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #fff;
+        padding: 15px 31px;
+        border-radius: 50px;
+    }
+
+    &__circle {
+        margin-left: 38px;
+        box-shadow: 10px 24px 100px 23px #00000026;
+        width: 50px;
+        height: 40px;
+        border-radius: 50%;
+        padding: 15px;
+    }
+
+    &__vid {
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        color: #FD695A;
+        padding-left: 20px;
+    }
+
+    &__pics {
+        position: relative;
+    }
+
+    &__happy {
+        margin-top: 77px;
+    }
+
+    &__icon {
+        position: absolute;
+        left: 120px;
+        top: 100px;
+    }
+
+    &__50k {
+        position: absolute;
+        left: -70px;
+        top: 380px;
+    }
+
+    &__client {
+        position: absolute;
+        left: 450px;
+        top: 450px;
+    }
+
+    .top {
+        transform: translate(165px, -105px);
+    }
+
+    .topleft {
+        transform: translateX(360px);
+    }
+
+    &__watchc {
+        position: absolute;
+        top: 550px;
+        left: 300px;
+        z-index: 999;
+        width: 800px;
+        background-color: #fff;
+    }
+
+    .exit {
+        border: none;
+        background: none;
+        position: absolute;
+        top: -15px;
+        right: 0;
+    }
+    .modal__bg {
+        position: absolute;
+        width: 1435px;
+        height: 1600px;
+        background-color: #a1a1a17c;
+        z-index: 999;
+        left: 0;
+        position: fixed;
+        display: none;
+    }
+
+    .men {
+        display: block;
+    }
+}
